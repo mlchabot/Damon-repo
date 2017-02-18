@@ -1,0 +1,80 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/2-col-right.png'
+  name: 2_column_-_right
+  timestamp: 1463772952
+layout:
+  /header/:
+    -
+      - 'logo-2972 30'
+      - 'position-header 70'
+  /navigation/:
+    -
+      - menu-1174
+  /container-main/:
+    -
+      -
+        'main 80':
+          -
+            - position-breadcrumbs
+          -
+            - system-messages-9861
+          -
+            - system-content-8229
+      -
+        'sidebar 20':
+          -
+            - logo-4333
+  /footer/:
+    -
+      - 'copyright-7428 50'
+      - 'social-2794 50'
+  offcanvas:
+    -
+      - mobile-menu-6833
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+    subtype: aside
+    block:
+      fixed: 1
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  logo-2972:
+    attributes:
+      image: 'gantry-media://damon-logo.jpg'
+      text: 'Damon Jespersen-Selectman'
+      class: ''
+  position-header:
+    attributes:
+      key: header
+  menu-1174:
+    attributes:
+      menu: main
+    block:
+      variations: align-right
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  logo-4333:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://damon-jespersen.png'
+      link: '0'
+      text: 'Damon Jespersen, Selectman'
+      class: ''
+  social-2794:
+    block:
+      variations: align-right

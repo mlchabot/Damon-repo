@@ -1,0 +1,8 @@
+preset: preset1
+footer:
+  background: '#009a3c'
+main:
+  background: '#999999'
+base:
+  body-font: 'Verdana, Arial, Helvetica, sans-serif'
+  heading-font: 'Verdana, Arial, Helvetica, sans-serif'

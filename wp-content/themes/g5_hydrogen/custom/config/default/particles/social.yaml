@@ -1,0 +1,12 @@
+enabled: '1'
+css:
+  class: social
+title: ''
+target: _blank
+display: both
+items:
+  -
+    icon: 'fa fa-envelope-o'
+    text: 'Email Damon'
+    link: 'mailto:jespersendamon@gmail.com'
+    name: Email
